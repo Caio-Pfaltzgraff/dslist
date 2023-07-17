@@ -2,7 +2,6 @@ package com.projetos.dslist.dto;
 
 import com.projetos.dslist.entities.Game;
 import com.projetos.dslist.projections.GameMinProjection;
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -27,7 +26,7 @@ public class GameMinDTO {
     public GameMinDTO(GameMinProjection projection) {
         this.id = projection.getId();
         this.title = projection.getTitle();
-        this.year = projection.getYear();
+        this.year = projection.getGameYear();
         this.imgUrl = projection.getImgUrl();
         this.shortDescription = projection.getShortDescription();
     }
