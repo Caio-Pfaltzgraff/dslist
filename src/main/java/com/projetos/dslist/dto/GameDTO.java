@@ -1,7 +1,6 @@
 package com.projetos.dslist.dto;
 
 import com.projetos.dslist.entities.Game;
-import jakarta.persistence.Column;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

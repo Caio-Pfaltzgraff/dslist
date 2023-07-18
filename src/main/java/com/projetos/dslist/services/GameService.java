@@ -2,7 +2,6 @@ package com.projetos.dslist.services;
 
 import com.projetos.dslist.dto.GameDTO;
 import com.projetos.dslist.dto.GameMinDTO;
-import com.projetos.dslist.entities.Game;
 import com.projetos.dslist.projections.GameMinProjection;
 import com.projetos.dslist.repository.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
